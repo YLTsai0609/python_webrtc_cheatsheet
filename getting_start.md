@@ -17,3 +17,4 @@ Flask事實上不支援RTSP(Real Time Streamming Protocol)，RTS被WebRTC包起�
 把github上的example，clone下來玩，目前發現
 
 1. webcam.py只支援1對1，1個server對多個client需要手刻一些東西，像是把Track複製給很多client
+2. 上手有難度的地方在於非同步機制，需要先study asyncio的使用，原理，跑幾份code
